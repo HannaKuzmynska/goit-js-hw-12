@@ -35,7 +35,7 @@ body {
   padding: 20px;
 }
 .hidden {
-  display: none;
+  display: none !important;
 }
 .search-form {
   display: flex;
@@ -73,7 +73,6 @@ body {
   background-color: #4e75ff;
   border: none;
   border-radius: 8px;
-  cursor: pointer;
   width: 91px;
   height: 40px;
   font-weight: 500;
@@ -172,5 +171,11 @@ body {
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 16px;
-  cursor: pointer;
+  background-color: #4e75ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
