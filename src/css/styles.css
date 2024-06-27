@@ -35,7 +35,7 @@ body {
   padding: 20px;
 }
 .hidden {
-  display: none !important;
+  display: none;
 }
 .search-form {
   display: flex;
@@ -178,4 +178,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.container .load-more.hidden {
+  display: none;
 }
