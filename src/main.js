@@ -20,7 +20,6 @@ let totalHits = 0;
 const form = document.querySelector('#search-form');
 const loadMoreBtn = document.querySelector('#load-more');
 
-
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   clearGallery();
